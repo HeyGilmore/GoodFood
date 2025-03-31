@@ -11,10 +11,53 @@
     <title>Good Food</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg bg-light shadow shadow-5">
+        <div class="container">
+          <img
+            src="{foodLogo}"
+            id="companyLogo"
+            alt="Food Logo"
+            width="60"
+            height="60"
+          />
+          <!-- Toggle Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Anchors Within -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div
+              class="navbar-nav d-grid gap-2 gap-lg-4 d-lg-block ms-lg-auto mt-4 m-lg-0"
+            >
+              <!-- Home Button -->
+              <button type="button" class="btn btn-primary">Home</button>
+              <!-- Features Button -->
+              <button type="button" class="btn btn-success">Menu</button>
+              <!-- Pricing Button -->
+              <button type="button" class="btn btn-warning">Pricing</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main>
       <div id="content"></div>
     </main>
-    <footer></footer>
+    <!-- Footer Section -->
+    <footer class="footer fixed-bottom bg-light p-2">
+      <div class="container text-center">
+        <span class="text-black"> HeyGilmore </span>
+      </div>
+    </footer>
   </body>
 </html>
