@@ -6,7 +6,7 @@ export default function loadHomepage() {
   const image = document.createElement("img");
   image.src = foodLogo; // Use the imported image URL
   image.alt = "Delicious food served at our restaurant";
-  image.style = "width:100%;max-width:600px;display:block;margin:0 auto";
+  image.style = "width:100%;max-width:500px;display:block;margin:0 auto";
   content.appendChild(image);
 
   // Create and append the headline
