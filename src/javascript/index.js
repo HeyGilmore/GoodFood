@@ -2,7 +2,8 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Bootstrap styles
 import "bootstrap/dist/js/bootstrap.bundle.min.js"; // Bootstrap JS components
 import "../assets/css/styles.css"; // Adjusted path to styles.css
 import loadHomepage from "/src/javascript/loadHomePage.js"; // Load Home Page
-import loadMenuPage from "/src/javascript/loadMenuPage.js"; //Load Menu Page
+import loadMenuPage from "/src/javascript/loadMenuPage.js"; // Load Menu Page
+import loadContactPage from "/src/javascript/loadContactPage.js"; // Load Contact Page
 
 //------ NAVIGATION Logo
 // Importing food logo for tha navigation
@@ -49,6 +50,6 @@ function setupNavigation() {
   // Contact Page
   contactBTN.addEventListener("click", () => {
     clearContent();
-    alert("contact Button");
+    loadContactPage();
   });
 }
